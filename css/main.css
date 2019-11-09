@@ -1,0 +1,137 @@
+
+.container {
+    background-image: url(../img/cyber-3400789_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+.Header{
+    /*background-color: black;*/
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+.Photo{
+    max-width: 150px;/* width: 150px; */
+    height: 150px; 
+    /* background-color: azure; */
+    /*justify-content: center;*/
+    margin-right: 30px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+    background-image: url(../img/streams.jpg);
+    background-size: cover;
+    
+    
+}
+
+.info {
+    height: auto;
+    width: auto;
+    /*justify-content: center;*/
+    background-color:cadetblue;
+}
+
+.Menu{
+    height: auto;
+    width: auto;
+    /*background-color: cadetblue;*/
+}
+
+/* .Body{
+    
+    background-color: chartreuse;
+    
+   
+} */
+
+.Practice {
+    justify-content: center;
+    /*height: 150px;
+    width: auto;
+    background-color:cornflowerblue;*/
+    margin-bottom: 15px;
+}
+
+.Footer {
+    height: 150px;
+    /* width:  auto; */
+    /*background-color:lightsalmon;*/
+    border-top: solid 3px;
+    border-color: rgb(53, 144, 187);
+    
+    
+}
+
+.Menu_tabs a {
+    color: orange;
+    outline-color: blue;
+}
+
+.dropdown-item {
+    
+    background-color: #fff;
+    color: brown;
+    
+}
+
+
+/* .dropdown-item:hover {
+    
+    background-color: blueviolet;
+    color: aliceblue;
+    
+} */
+
+.first_card {
+    /*margin-left: 10px;*/
+    margin-top: 30px;
+    width:auto;
+    /*background-size: 100%;*/
+    /*justify-content: center;*/
+    
+
+    margin-bottom: 30px;
+}
+
+.second_card {
+    /*margin-right: 30px;*/
+    margin-top: 30px;
+    width: auto;
+    justify-content: center;
+    
+    margin-bottom: 30px;
+}
+
+.card  {
+   /*background-image: url(../img/wall_7.jpg);*/
+   background-color:cornflowerblue;
+    background-size: cover ;
+    /*max-height: 100%;*/
+   
+}
+
+.Menu_tabs2 {
+    display: block;
+}
+
+.card-header a {
+    color: brown;
+}
+
+h3 {
+    font-weight: bold;
+    color: orange; 
+    margin: 10px 15px;
+    font-size: 20px;
+}
+
+/* .task
+{
+    font-size: large;
+    color: black;
+} */
