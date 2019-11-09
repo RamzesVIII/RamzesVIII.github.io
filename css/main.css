@@ -33,7 +33,7 @@
     height: auto;
     width: auto;
     /*justify-content: center;*/
-    background-color:cadetblue;
+    background-color: rgb(53, 144, 187, 0.65);
 }
 
 .Menu{
@@ -109,7 +109,7 @@
 
 .card  {
    /*background-image: url(../img/wall_7.jpg);*/
-   background-color:cornflowerblue;
+   background-color: rgb(53, 144, 187, 0.65);
     background-size: cover ;
     /*max-height: 100%;*/
    
@@ -135,3 +135,15 @@ h3 {
     font-size: large;
     color: black;
 } */
+
+.github
+{
+    color: black;
+    font-size: medium;
+}
+
+.github a
+{
+    color: darkblue;
+    font-size: medium;
+}
