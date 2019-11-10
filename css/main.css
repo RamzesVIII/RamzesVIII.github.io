@@ -3,7 +3,8 @@
     background-image: url(../img/cyber-3400789_1280.jpg);
     background-size: cover;
     background-attachment: fixed;
-    
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
