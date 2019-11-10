@@ -12,18 +12,20 @@
     /*background-color: black;*/
     padding-top: 25px;
     padding-bottom: 25px;
+    border-bottom: 3px solid rgb(53, 144, 187);
 }
 
 
 
 .Photo{
-    max-width: 150px;/* width: 150px; */
-    height: 150px; 
+    max-width: 170px;/* width: 150px; */
+    height: 170px; 
     /* background-color: azure; */
     /*justify-content: center;*/
     margin-right: 30px;
     margin-left: 70px;
     margin-bottom: 10px;
+    margin-top: 30px;
     background-image: url(../img/streams.jpg);
     background-size: cover;
     
@@ -43,12 +45,11 @@
     /*background-color: cadetblue;*/
 }
 
-/* .Body{
+.Body{
     
-    background-color: chartreuse;
-    
+    border-bottom: 3px solid rgb(53, 144, 187);    
    
-} */
+}
 
 .Practice {
     justify-content: center;
@@ -56,6 +57,7 @@
     width: auto;
     background-color:cornflowerblue;*/
     margin-bottom: 15px;
+    /* border-top: 3px solid rgb(53, 144, 187); */
 }
 
 .Footer {
@@ -131,11 +133,11 @@ h3 {
     font-size: 20px;
 }
 
-/* .task
+.Task
 {
-    font-size: large;
-    color: black;
-} */
+   /*  overflow: auto; */
+    height: auto;
+}
 
 .github
 {
@@ -147,4 +149,24 @@ h3 {
 {
     color: darkblue;
     font-size: medium;
+}
+
+.infospan 
+{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.info p
+{
+    font-size: medium;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+    .Task
+    {
+        height: 230px;
+        overflow: auto;
+    }
 }
